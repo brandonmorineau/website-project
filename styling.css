@@ -1,5 +1,9 @@
 
-body { margin-left: 100px;
-  border: 2px solid red;}
+body { margin-left: 222px;
+       margin-right: 222px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       padding: 100px;
+       border: 2px solid red;}
 
-h2{ font-weight: bold:}
+
