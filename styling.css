@@ -1,15 +1,15 @@
 
-header { margin-left: 222px;
-       margin-right: 222px;
+header { margin-left: 200px;
+       margin-right: 200px;
        margin-top: 20px;
        margin-bottom: 20px;
        text-align: center;
-       font-size: 25pt;
+       font-size: 30pt;
        border: 4px solid black;}
 
 table {margin-left: auto;
        margin-right: auto;
-       font-size: 22pt;}
+       font-size: 26pt;}
 
 th {padding-left: 30px;
     padding-top: 10px;
