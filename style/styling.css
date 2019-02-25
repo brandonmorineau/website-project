@@ -12,10 +12,9 @@ header { margin-left: 200px;
 table {margin-left: auto;
        margin-right: auto;
        font-size: 26pt;
-       border-width: 2px;
-	border-color: black;
+       border-width: 2px solid black;
        }
-
+thead {border-width: 2px solid black;}
 th {padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -35,3 +34,8 @@ article {  margin-left: 275px;
        height:1000px;
        background-color: black;
        padding-top: 30px;}
+	
+footer { text-align: center;
+	color: white;
+	font-size: 25
+	}

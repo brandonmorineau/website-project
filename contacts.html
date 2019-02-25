@@ -1,24 +1,23 @@
-
 <!DOCTYPE html>
 
 <html>
- <body>
-  <header>
-    <title> The Charming Duckling </title>
-    <link rel="stylesheet" type="text/css" href="styling.css" />
-    <p>
-      <h1> 
-        <img src = "logo.png" alt = "company logo" title="logo" 
-           width="100" height="100"\>
-        The charming Duckling </h1>
-    contacts
-    </p>
-   </header>
-  
+ <head lang=en>
+  <title> The Charming Duckling </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style/styling.css" />
+  <link rel="stylesheet" type="text/css" href="style/contacts.css" />
+ </head>
  
- <article>
-    <section>
-      <table border = "1" />
+ <body>
+  <header id="top" > 
+      <h1> 
+        <img src = "images/logo.png" alt = "company logo" title="logo" 
+           width="100" height="100"/>
+        The Charming Duckling </h1>
+  </header>
+
+   <nav>
+    <table>
        <thead>
          <tr>
           <th>
@@ -31,11 +30,75 @@
              <a href="goods.html">Goods</a>
           </th>
           <th>
-             <a href="histroy.html">History</a>
+             <a href="history.html">History</a>
           </th>
         </tr>
      </thead>
-    </section>
-  <article>
-  <body>
+    </table>
+  </nav>
+
+ <article>
+   <section>
+	<form method="post" action="mailto:youremail@dmainname.ca">
+	<p> Select the reason why you're emailing us
+		<label> Complaint
+			<input name="reason" type="radio" value="complaint" />
+		</label>
+		<label> Business 
+			<input name="reason" type="radio" value="business"/>
+		</label>
+		<label> Special offers
+			<input name="reason" type="radio" value="offers"/>
+		<label/>
+
+	</p>
+	<p>
+	<label> Subject:
+		<input name="subject" type="text" maxlength="25" required />
+	</label>
+	</p>
+       <p>
+	<label> Inquiry:
+		<textarea name="inquiry" type="text" required rows="6" cols="100" > </textarea>
+	</label>
+	</p>
+	<p>
+	<label> Your email:
+		<input name="email" type="email" placeholder="1234@example.com" required />
+	</label>
+	</P>
+	<p>
+	<label> Phone number:
+		<input name="phone" type="tel" placeholder="123-123-1234"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+	</label>
+	</p>
+	<p> Would you? <br/>
+		<label> Shop here again:
+			<input name="possibility" type="checkbox" value="shop" />
+		</label> 
+		<label> Recomend the store:
+			<input name="possibility" type="checkbox" value="recomend" /> 	
+		</label>
+	</p>
+	<p> Lastly could you please enter in the date.
+		<label> Date:
+			<input name="date" type="date" />
+		</label>
+		<br/>
+	</p>
+		<button type="reset" value="clear">Clear</button>
+		<button type="submit" value="Submit">Submit</button>
+		
+	</form>
+   </section>
+
+	<footer> 
+	<p>
+		<a href="#top"> Top of page </a>
+	</p>
+	</footer>
+ </article>
+
+</body>
 </html>
+
