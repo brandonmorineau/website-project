@@ -19,10 +19,11 @@ th {padding-left: 30px;
     padding-right: 30px;
     }
 
-article {  margin-left: 200px;
+article {  margin-left: 275px;
        margin-top: 20px;
        margin-bottom: 20px;
        text-align: center;
+       text-color: white;
        font-size: 20pt;
        border: 4px solid black;
        box-sizing:content-box;
