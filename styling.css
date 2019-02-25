@@ -9,5 +9,6 @@ header { margin-left: 222px;
 
 table {margin-left: auto;
        margin-right: auto;
-       padding: 10px;
        font-size: 22pt;}
+
+th {padding-right:10px}
