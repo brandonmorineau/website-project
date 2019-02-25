@@ -6,7 +6,7 @@ header { margin-left: 200px;
        text-align: center;
        font-size: 30pt;
        border: 4px solid black;
-       bgcolor="white";}
+       background-color="white";}
 
 table {margin-left: auto;
        margin-right: auto;
@@ -17,5 +17,5 @@ th {padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
-       bgcolor="white";
+    background-color="white";;
     }
