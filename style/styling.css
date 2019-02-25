@@ -1,4 +1,4 @@
-body {background-image: url("duckbackground.jpg");}
+body {background: url(../images/duckbackground.jpg);}
 header { margin-left: 200px;
        margin-right: 200px;
        margin-top: 20px;
@@ -13,6 +13,7 @@ table {margin-left: auto;
        margin-right: auto;
        font-size: 26pt;
        border-width: 2px;
+	border-color: black;
        }
 
 th {padding-left: 30px;
