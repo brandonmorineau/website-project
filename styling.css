@@ -5,18 +5,18 @@ header { margin-left: 200px;
        margin-bottom: 20px;
        text-align: center;
        font-size: 30pt;
-       border: 4px solid black;
+       border: 4px solid "black";
        }
 
 table {margin-left: auto;
        margin-right: auto;
        font-size: 26pt;
-       background-color: #4CAF50;
+       background-color: "white";
        }
 
 th {padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
-    background-color: #4CAF50;
+    background-color: "white";
     }
