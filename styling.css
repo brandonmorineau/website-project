@@ -4,8 +4,8 @@ header { margin-left: 222px;
        margin-top: 20px;
        margin-bottom: 20px;
        text-align: center;
-       font-size: 30pt;
+       font-size: 25pt;
        border: 4px solid Black;}
 
-section {margin-left 222px;
+section {align: center;
        font-size: 60pt;}
