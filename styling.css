@@ -12,6 +12,7 @@ header { margin-left: 200px;
 table {margin-left: auto;
        margin-right: auto;
        font-size: 26pt;
+       border-width: 2px;
        }
 
 th {padding-left: 30px;
@@ -19,8 +20,7 @@ th {padding-left: 30px;
     padding-bottom: 10px;
     padding-right: 30px;
     background-color: white;
-    border-width: 2px;
-    }
+     }
 
 article {  margin-left: 275px;
        margin-top: 20px;
