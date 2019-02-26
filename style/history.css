@@ -1,0 +1,13 @@
+
+section::first-letter {
+	font-size: 200%;
+	color: red;
+	}
+
+#adam {
+  float: right;
+  width: 250px;
+  height: 280px;
+}
+
+a[href="history.html"]{ background-color: red;}

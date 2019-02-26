@@ -1,0 +1,18 @@
+
+
+article  table {margin-left: auto;
+       margin-right: auto;
+       font-size: 26pt;
+       background-color: tan;
+	color: black;
+       }
+article table, th, td {
+ border-collapse: collapse;
+  border: 4px solid brown;
+}
+
+a[href="homepage.html"]{ background-color: red;}
+
+th[rowspan="2"]{background-color: tan;}
+
+h1 {text-align: center;}
